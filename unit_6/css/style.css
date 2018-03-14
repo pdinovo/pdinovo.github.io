@@ -1,0 +1,137 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald|Petrona|Roboto+Slab');
+</style>
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	 font-family: 'Petrona', serif;
+	 font-size: 24px;
+	 text-align: center;
+	 color: #222222;
+	 line-height: 2,
+}
+
+#mainimage {
+  	display: block;
+  	background: url(../images/hero_image_new.jpg);
+  	background-size: cover;
+  	height: 939px;
+  	clear:both;
+  	}
+
+
+
+#headericon {
+	height:140px;
+	margin-top: 40px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.5em;
+	width:18em;
+	font-weight:normal;
+	color: #FFF;
+	margin:270px 0 0;
+	display:inline-block;
+}
+
+a{
+	color: #759f84;
+	font-size: .7em;
+	text-decoration: none;
+}
+
+nav {
+	background: url(../images/nav_texture_green.jpg);
+	width: 2092px;
+	height:80px;
+	float: left;
+}
+
+nav a {
+	font-family: 'Petrona', serif;
+	font-weight:normal;
+	color:#e6e7e5;
+	font-size: .7em;
+	display: block;
+	width:216px;
+	height:80px;
+	padding: 25px 0;
+	float:left;
+}
+
+nav a:hover {
+	background-color: #759f84;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight:normal;
+	color:#e6e7e5;
+	font-size: .8em;
+	letter-spacing: 6px;
+	padding-left: 50px;
+	display: block;
+	height:80px;
+	Float: left;
+}
+
+p{
+
+	line-height:1.5em;
+}
+
+.services{
+	width:15em;
+	margin:2em auto;
+	float:left;
+	padding: 120px;
+}
+
+.services img{
+	width:100%;
+}
+
+
+h2, h3{
+	font-family: 'Oswald', sans-serif;
+}
+
+#quote {
+	font-weight:normal;
+	color:#808285;
+	font-size: .7em;
+}
+
+footer {
+	text-align: center;
+	font-size: .5em;
+	background-color: #eeeeee;
+	padding: 20px;
+}
+
+#wrapper {
+	width: 2092px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	display:block;
+	content: "";
+	clear:both; 
+
+	font-size: 0;
+	visibility: hidden;
+	height:0;
+
+
+}
