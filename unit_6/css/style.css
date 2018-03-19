@@ -1,8 +1,5 @@
 
-<style>
 @import url('https://fonts.googleapis.com/css?family=Oswald|Petrona|Roboto+Slab');
-</style>
-
 
 *{
 	padding: 0;
@@ -16,32 +13,40 @@ body{
 	 font-size: 24px;
 	 text-align: center;
 	 color: #222222;
-	 line-height: 2,
+	 line-height: 1.2,
 }
 
-#mainimage {
-  	display: block;
-  	background: url(../images/hero_image_new.jpg);
-  	background-size: cover;
-  	height: 939px;
-  	clear:both;
-  	}
+main {
+	max-width: 1200px;
+	margin: auto;
+}
 
+nav { 
+	float:right;
+	 }
+
+#mainimage {
+	background:url(../images/hero_image_new.jpg);
+	background-size: cover;
+	height: 80vh;
+	position: relative;
+	z-index: -1;
+}
 
 
 #headericon {
-	height:140px;
-	margin-top: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30em;
+	transform: translate(-50%,-50%);
 }
 
 h1 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 3.5em;
-	width:18em;
+	font-size: 2.5em;
 	font-weight:normal;
 	color: #FFF;
-	margin:270px 0 0;
-	display:inline-block;
 }
 
 a{
@@ -50,23 +55,14 @@ a{
 	text-decoration: none;
 }
 
-nav {
-	background: url(../images/nav_texture_green.jpg);
-	width: 2092px;
-	height:80px;
-	float: left;
-}
 
 nav a {
 	font-family: 'Petrona', serif;
 	font-weight:normal;
 	color:#e6e7e5;
 	font-size: .7em;
-	display: block;
-	width:216px;
-	height:80px;
-	padding: 25px 0;
-	float:left;
+	display: inline-block;
+	padding: 25px;
 }
 
 nav a:hover {
@@ -79,22 +75,15 @@ h3 {
 	color:#e6e7e5;
 	font-size: .8em;
 	letter-spacing: 6px;
-	padding-left: 50px;
 	display: block;
-	height:80px;
-	Float: left;
-}
-
-p{
-
-	line-height:1.5em;
+	float: left;
+	padding:25px;
 }
 
 .services{
-	width:15em;
-	margin:2em auto;
+	width:33.33%;
 	float:left;
-	padding: 120px;
+	padding: 2em;
 }
 
 .services img{
@@ -120,7 +109,6 @@ footer {
 }
 
 #wrapper {
-	width: 2092px;
 	margin: 0 auto;
 }
 
