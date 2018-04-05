@@ -13,7 +13,7 @@ body{
 	 font-size: 18px;
 	 text-align: center;
 	 color: #222222;
-	 line-height: 1.2,
+	 line-height: 1.2;
 }
 
 main {
@@ -74,6 +74,10 @@ nav a {
 	padding: 1.4em;
 }
 
+#mobile {
+	display:none;
+}
+
 nav a:hover {
 	background-color: #759f84;
 }
@@ -125,7 +129,6 @@ footer {
 	display:block;
 	content: "";
 	clear:both; 
-
 	font-size: 0;
 	visibility: hidden;
 	height:0;
@@ -184,7 +187,7 @@ footer {
 	.services{
 		width:auto;
 		float:none;
-		padding: none;
+		padding: 0;
 		}
 
 	.services img{
@@ -196,28 +199,50 @@ footer {
 @media only screen and (max-width: 470px) { 
 
 
+	nav { 
+		position: relative;
+		right: 0em;
+		top: 0%;
+		transform: translateY(0%);
+	 	}
+
+
 	nav a {
-		display: block;
 		margin:auto;
+		background: #222222;
+		display: none;
+		}
+
+	#mobile {
+		display: block;
+		background: none;
+		}
+
+	#mobile:hover {
+		color:#222222;
+		}
+
+	nav:hover a{
+		display:block;
 		}
 
 	h3 {
 		display: inline;
 		margin:auto;
 		padding: 1.4em;
-	}
+		}
 
 	#headericon img{
 		width:40%;
-	}
+		}
 
 	#headericon {
 		position: relative;
-		top: 50%;
+		top: 55%;
 		left: 50%;
 		width: 15em;
 		transform: translate(-50%,-50%);
-	}
+		}
 
 	h1 {
 		font-family: 'Roboto Slab', serif;
@@ -225,7 +250,7 @@ footer {
 		font-weight:normal;
 		color: #FFF;
 		text-shadow: 1px 1px 3px rgba(0,0,0,.25);
-	}
+		}
 
 	#mainimage {
 		background:url(../images/hero_image_new.jpg);
@@ -233,5 +258,6 @@ footer {
 		height: 35vh;
 		position: relative;
 		z-index: -1;
-}
+		}
+	
 }
